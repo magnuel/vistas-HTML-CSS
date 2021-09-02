@@ -1,0 +1,272 @@
+@font-face {
+    font-family: Mulish;
+    src: url(fonts/static/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/Avenir-Regular.ttf);
+}
+
+@media (max-width:320px){
+    /* Primera vista mobile */
+    #caja1 {
+        width: 390px;
+        height: 830px;
+        background: #FBEFEC;
+    }
+    
+    #caja1 h1{
+        display: none;
+    }
+
+    #caja2 {
+        display: none;
+    }
+
+    .confirmation{
+        position: absolute;
+        width: 375px;
+        height: 77px;
+        left: 0px;
+        top: 735px;
+        background: #4CA484;
+    }
+
+    .confirmation p{
+        margin-top: 26px;
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .logo img{
+        width: 262px;
+        height: 100px;
+        margin-left: 34px;
+        margin-top: 100px;
+        align-self: center;
+    }
+
+    .logo2 img{
+        width: 98px;
+        height: 82px;
+        margin-left: 50px;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .text1{
+        height: 24px;
+        margin-left: 6.4%;
+        margin-top: 25%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        align-self: flex-start;
+        color: #EC552F;
+    }
+    
+    .text2{
+        height: 28px;
+        margin-left: 6.4%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 19px;
+        line-height: 1px;
+        text-align: left;
+        align-self: flex-start;
+        color: #EC552F;
+    }
+    
+    .iniciar{
+        outline: none;
+        width: 270px;
+        height: 52px;
+        background: rgba(33, 94, 153, 1);
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+    }
+    
+    .ini-otra{
+        outline: none;
+        width: 270px;
+        height: 52px;
+        background: none;
+        border: 0.7px solid #EC552F;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    
+    .ini-otra a{
+        color: #EC552F;
+    }
+
+    .line2{
+        position: absolute;
+        width: 134px;
+        height: 5px;
+        left: 80px;
+        top: 652px;
+        background: #215E99;
+        border-radius: 100px;
+    }
+
+    /* Fin de la primera vista */
+
+    /* Segunda vista */
+
+    .fa-chevron-left{
+        width: 10px;
+        height: 10px;
+        margin-left: 24px;
+        margin-top: 40px;
+        color: rgba(33, 94, 153, 1);
+    }
+    
+    .ini-sesion img{
+        width: 240px;
+        height: 95px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    #caja3 {
+        width: 400px;
+        height: 812px;
+        background: #FFFFFF;
+    }
+
+    .text3 {
+        width: 280px;
+        margin-left: 10px;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        align-self: flex-start;
+        color: #EC552F;
+    }
+
+    #login form label{
+        width: 163px;
+        height: 20px;
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        align-self: center;
+        color: rgba(33, 94, 153, 1);
+    }
+
+    #login input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 273px;
+        height: 48px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .fa-eye{
+        position: absolute;
+        width: 24.19px;
+        height: 16px;
+        left: 250px;
+        top: 410px;
+    }
+
+    .olvidado{
+        margin-right: 40px;
+    }
+    
+    .inicia-mobile{
+        outline: none;
+        width: 270px;
+        height: 52px;
+        background: rgba(236, 85, 47, 1);
+        border-radius: 4px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    .inicia-mobile a{
+        width: 94.93px;
+        height: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        align-items: center;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .otra-mobile{
+        outline: none;
+        width: 270px;
+        height: 52px;
+        margin-left: 10px;
+        background: none;
+        border: 0.7px solid rgba(33, 94, 153, 1);
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-bottom: 24px;
+    }
+    
+    .otra-mobile a{
+        color: rgba(33, 94, 153, 1);
+    }
+
+    .new-mobile{
+        margin-top: 60px;
+        margin-right: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(33, 94, 153, 1);
+    }
+    
+    .new-mobile a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(236, 85, 47, 1);
+    }
+
+    .line3{
+        position: absolute;
+        width: 134px;
+        height: 5px;
+        left: 80px;
+        top: 770px;
+        background: #215E99;
+        border-radius: 100px;
+    }
+
+    /* Fin de la segunda vista */
+}   

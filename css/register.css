@@ -1,0 +1,152 @@
+.fa-eye{
+    position: absolute;
+    width: 24.19px;
+    height: 16px;
+    left: 1170px;
+    top: 450px;
+    color: rgba(127, 142, 157, 1);
+}
+
+@media (max-width:320px){
+    /* Vista registro */
+    .logoR img{
+        width: 260px;
+        height: 100px;
+        margin-left: 44px;
+        margin-top: -50px;
+        align-self: center;
+    }
+
+    .fa-chevron-left{
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        margin-top: 40px;
+        color: rgba(33, 94, 153, 1);
+    }
+
+    .regis-text {
+        width: 280px;
+        margin-left: 24px;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        align-self: flex-start;
+        color: #EC552F;
+    }
+
+    #loginR form label{
+        width: 163px;
+        height: 20px;
+        margin-left: 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        align-self: center;
+        color: rgba(33, 94, 153, 1);
+    }
+
+    #loginR input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 24px;
+        width: 273px;
+        height: 48px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    #loginR .fa-eye{
+        position: absolute;
+        width: 24.19px;
+        height: 16px;
+        left: 266px;
+        top: 450px;
+    }
+
+    .terminos p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        color: #EC552F;
+    }
+    
+    .terminos input{
+        width: 24px !important;
+        height: 24px !important;
+        border: 0.7px solid #C7CAD9 !important;
+        box-sizing: border-box !important;
+        border-radius: 2px !important;
+        cursor: pointer;
+    }
+    
+    #loginR .inicia-mobile{
+        outline: none;
+        width: 270px;
+        height: 52px;
+        background: rgba(236, 85, 47, 1);
+        border-radius: 4px;
+        margin-left: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    #loginR .inicia-mobile a{
+        width: 94.93px;
+        height: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        align-items: center;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    #loginR .otra-mobile{
+        outline: none;
+        width: 270px;
+        height: 52px;
+        margin-left: 24px;
+        background: none;
+        border: 0.7px solid rgba(33, 94, 153, 1);
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-bottom: 40px;
+    }
+    
+    #loginR .otra-mobile a{
+        color: rgba(33, 94, 153, 1);
+    }
+
+    .newR{
+        margin-top: 20px;
+        margin-right: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: rgba(33, 94, 153, 1);
+    }
+    
+    .newR a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(236, 85, 47, 1);
+    }
+
+    /* Fin de la vista registro */
+}

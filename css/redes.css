@@ -1,0 +1,87 @@
+@media (max-width:320px){
+    .mobile, .logo, .logo2{
+        opacity: 0.3;
+        background: black;
+    }
+
+    .social{
+        position: absolute;
+        width: 320px;
+        height: 830px;
+        left: 0px;
+        top: 300px;
+        background: #FFFFFF;
+        border-radius: 22px;
+    }
+
+    .selecciona{
+        margin-top: 10px;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #215E99;
+    }
+
+    .line{
+        position: absolute;
+        width: 62px;
+        height: 4px;
+        left: 130px;
+        top: 17px;
+        background: #C8C8C8;
+        border-radius: 2px;
+    }
+
+    .fa-times{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 24px;
+        top: 27px;
+        color: rgba(33, 94, 153, 1);
+    }
+
+    .iconos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 324px;
+        cursor: pointer;
+    }
+
+    .appleb{
+        width: 272px;
+        height: 40px;
+        margin-top: -10px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+    
+    .facebook{
+        width: 272px;
+        height: 40px;
+        margin-top: -10px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+    
+    .google{
+        width: 272px;
+        height: 40px;
+        margin-top: -10px;
+        border: 0.7px solid #C7CAD9;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+
+
+
+}
